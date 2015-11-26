@@ -21,7 +21,7 @@
                                             <th>Posts</th>
                                             <th>First Name</th>
                                             <th>Last Name</th>
-                                            <th>Subscriptions</th>
+                                            <th>Last Issue Subscriptions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -31,7 +31,7 @@
                                                     <td>{{$user->posts}}</td>
                                                     <td>{{$user->name}}</td>
                                                     <td>{{$user->surname}}</td>
-                                                    <td><button type="button" class="btn btn-danger btn-xs">{{$user->posts}}</button></td>
+                                                    <td><button type="button" class="btn btn-success btn-xs">{{$user->posts}}</button></td>
                                                 </tr>
                                             @endif
                                         @endforeach
